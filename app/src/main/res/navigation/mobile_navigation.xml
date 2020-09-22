@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.moziz.qricedeliveryboy.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_my_order"
+        android:name="com.moziz.qricedeliveryboy.fragments.MyOrderFragment"
+        android:label="@string/menu_my_order"
+        tools:layout="@layout/fragment_my_order" />
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.moziz.qricedeliveryboy.fragments.OrderRequestFragment"
+        android:label="@string/menu_my_order"
+        tools:layout="@layout/fragment_order_request" />
+    <fragment
+        android:id="@+id/nav_my_profile"
+        android:name="com.moziz.qricedeliveryboy.fragments.MyProfileFragment"
+        android:label="@string/menu_my_profile"
+        tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/nav_edit_profile"
+        android:name="com.moziz.qricedeliveryboy.fragments.EditProfileFragment"
+        android:label="@string/menu_my_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/nav_notification_offers"
+        android:name="com.moziz.qricedeliveryboy.fragments.NotificationFragment"
+        android:label="@string/menu_notificationoffers"
+        tools:layout="@layout/fragment_notification" />
+</navigation>

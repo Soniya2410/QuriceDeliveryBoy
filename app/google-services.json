@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573579656076",
+    "firebase_url": "https://qricedeliveryboy-fb312.firebaseio.com",
+    "project_id": "qricedeliveryboy-fb312",
+    "storage_bucket": "qricedeliveryboy-fb312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573579656076:android:63de1eccc4a8a19a5c34a9",
+        "android_client_info": {
+          "package_name": "com.moziz.qricedeliveryboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573579656076-o22t4gn7n8donns2b0png5toif0i4qtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMeojpWOc1Z68OvnKAz6c1k2Og_KvOfLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573579656076-o22t4gn7n8donns2b0png5toif0i4qtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
